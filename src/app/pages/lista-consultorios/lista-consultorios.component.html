@@ -1,5 +1,5 @@
 <div class="container main-container">
-<!--div class="row row-cols-1 row-cols-md-3"></div>
+    <!--div class="row row-cols-1 row-cols-md-3"></div>
 
   <div class="card" style="width: 18rem;">
     <img src="https://i.pinimg.com/originals/c7/de/72/c7de72713f0a83a99e0754a69cc761a6.jpg" class="card-img-top" alt="...">
@@ -19,8 +19,8 @@
     </div>
 
 </div> -->
-<div class="row row-cols-1 row-cols-md-3">
-  <!-- <div class="col mb-4">
+    <div class="row row-cols-1 row-cols-md-3">
+        <!-- <div class="col mb-4">
     <div class="card animated fadeIn">
       <img src="https://i.pinimg.com/originals/c7/de/72/c7de72713f0a83a99e0754a69cc761a6.jpg" class="card-img-top" alt="...">
       <div class="card-body">
@@ -30,15 +30,15 @@
       </div>
     </div>
   </div> -->
-  <div *ngFor="let consultorio of consultorios" class="col mb-4">
-    <div class="card animated fadeIn" >
-      <img [src]="consultorio.foto" class="card-img-top" alt="..." height="250px">
-      <div class="card-body">
-        <h5 class="card-title">{{consultorio.nombreC}}</h5>
-        <p class="card-text">{{consultorio.nombreD}}</p>
-        <button type="button" class="btn btn-outline-primary text-center" [routerLink]="['/consultorio/',consultorio.id]">Hacer una consulta</button>
-      </div>
+        <div *ngFor="let consultorio of consultorios" class="col mb-4">
+            <div class="card animated fadeIn">
+                <img [src]="consultorio.foto" class="card-img-top" alt="..." height="250px">
+                <div class="card-body">
+                    <h5 class="card-title">{{consultorio.nombreC}}</h5>
+                    <p class="card-text">{{consultorio.nombreD}}</p>
+                    <button type="button" class="btn btn-outline-primary text-center" [routerLink]="['/consultorio/',consultorio.id]">Hacer una consulta</button>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 </div>

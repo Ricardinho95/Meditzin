@@ -56,34 +56,8 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
 
-.dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-
-/*-------------------------------------------*/
+/*-----------Slider--------------------------------*/
 
 .slider {
     width: 100%;
@@ -123,22 +97,8 @@ body {
     animation: fadeInLeft 3s 1 .3s linear
 }
 
-.slider .container button {
-    background: #559af3;
-    ;
-    color: #FFF;
-    border: 1px solid #559af3;
-    width: 190px;
-    height: 60px;
-    margin-left: 100px;
-    padding: 10px;
-    font-size: 20px;
-    border-radius: 10px;
-    animation: fadeInLeft 3s 1 .3s linear
-}
 
-
-/*-------------------------------------------*/
+/*--------------Sobre Nosotros-----------------------------*/
 
 .about {
     width: 100%;
@@ -162,7 +122,7 @@ body {
 .about .container .text span {
     font-size: 20px;
     width: 300px;
-    color: #559af3;
+    color: #d6101a;
     ;
     font-weight: bold;
     display: inline-block;
@@ -180,35 +140,6 @@ body {
     line-height: 1.2;
     font-size: 20px;
     margin-left: 10px;
-}
-
-.about .container .text button {
-    display: block;
-    margin-bottom: 30px;
-    color: #FFF;
-    border: 1px solid #559af3;
-    width: 190px;
-    height: 60px;
-    margin-left: 10px;
-    padding: 10px;
-    font-size: 20px;
-    border-radius: 10px;
-    animation: fadeInLeft 3s 1 5s linear;
-}
-
-.about .container .text button:first-of-type {
-    background: #0056b3;
-    border: 1px solid #0056b3;
-}
-
-.about .container .text button:nth-of-type(2) {
-    background: #9ea0af;
-    border: 1px solid #9ea0af;
-}
-
-.about .container .text button:last-of-type {
-    background: #9ea0af;
-    border: 1px solid #9ea0af;
 }
 
 .about .container .image {
@@ -230,11 +161,11 @@ body {
 }
 
 
-/*-------------------------------------------*/
+/*------------Nuesros Servicios-------------------------------*/
 
 .Department {
     width: 100%;
-    height: 600px;
+    height: 1000px;
     margin-top: 30px;
 }
 
@@ -337,104 +268,7 @@ body {
 }
 
 
-/*-------------------------------------------*/
-
-.gallery {
-    width: 1200px;
-    height: 700px;
-}
-
-.gallery .container {
-    width: 100%;
-    height: 900px;
-    position: relative;
-    display: inline-block;
-    margin: auto;
-}
-
-.gallery .container div {
-    margin-left: 20px;
-    display: inline-block;
-}
-
-.gallery .container div img {
-    transition: all 1s ease-in-out;
-}
-
-.gallery .container div img:hover {
-    transform: scale(1.06);
-}
-
-.gallery .container div:nth-child(2) {
-    position: absolute;
-    top: -7px;
-}
-
-.gallery .container div:nth-child(3) {
-    position: absolute;
-    left: 860px;
-    top: -7px;
-}
-
-.gallery .container div:nth-child(4) {
-    position: absolute;
-    top: 300px;
-    left: 600px;
-}
-
-.gallery .container div:nth-child(5) {
-    position: absolute;
-    top: 580px;
-    left: 0px;
-}
-
-.gallery .container div:nth-child(6) {
-    position: absolute;
-    left: 300px;
-    top: 580px;
-}
-
-.gallery .info {
-    width: 800px;
-    height: 500px;
-    margin: 50px auto;
-    background-image: url('https://i.imgur.com/N7nmWOq.png');
-}
-
-.gallery .info .text {
-    padding: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
-    float: left;
-    color: #FFF;
-    width: 50%;
-    font-size: 30px;
-}
-
-.gallery .info .text .img {
-    float: left;
-    margin-left: 70px;
-}
-
-.gallery .info .text .testi {
-    float: right;
-    font-size: 15px;
-    font-weight: bold;
-    margin-right: 50px;
-}
-
-.gallery .info .image {
-    float: right;
-    width: 50%;
-}
-
-.gallery .info .image img {
-    width: 100%;
-    height: 500px;
-}
-
-
-/*-------------------------------------------*/
+/*-----------------Doctores Cartas--------------------------*/
 
 .doctors {
     width: 100%;
